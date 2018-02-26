@@ -1,0 +1,422 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+
+#header {
+  /*box-shadow: .3px 2px 4px rgba(0,0,0,.18);*/
+
+font-family: 'Inconsolata', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 3.1rem;
+margin-left: 0%;
+margin-right: 0%;
+/*background-color: rgba(136,226,236,.1);*/
+/*background-color: #e6f598;*/
+/*background-color: #97c9e6;*/
+/*background-color: #353C3D;*/
+/*background-color: #484848;*/
+  /*background: linear-gradient(to right, lightblue,  green);*/
+/*padding: 0px -5px -90px -5px;
+*//*border-radius: 10px;*/
+font-weight: 900;
+/*display: inline-block;*/
+width: 100%;
+margin-bottom: 20px;
+/*font-style: italic;*/
+
+
+ /*text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.11), 0px 8px 13px rgba(0,0,0,0.1), 0px 15px 20px rgba(0,0,0,0.1);*/
+    /*color: whitesmoke;*/
+    /*background-color: hsl(207, 62%, 69%);*/
+    /*background-color: yellow;*/
+    /* text-decoration: underline dotted; */
+    /*background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);*/
+border-radius:6px;
+/*padding-left: 5%;*/
+/*padding-right: 5%;*/
+
+/*padding-bottom: -5%;*/
+
+/*color: yellow;*/
+/*background-color:red;*/
+text-align: center;
+/*border-top: solid black 3px;
+border-bottom: solid black 3px;*/
+
+}
+
+
+.center {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+/*border: dashed red;*/
+
+
+}
+
+
+.linePoint {
+
+
+font-family: "Nunito Sans", sans-serif;
+font-size: 1em;
+font-weight: 600;
+
+
+
+}
+
+p {
+
+
+font-family: "Nunito Sans", sans-serif;
+font-size: 1.1rem;
+font-weight: 400;
+color:#484848;
+
+}
+
+
+a {
+
+text-decoration: underline;
+color: black;
+
+}
+
+.card {
+
+
+    box-shadow: .3px 2px 4px rgba(0,0,0,.18);
+
+}
+
+
+.mid{
+
+margin: auto;
+padding-left: 2%;
+padding-right: 2%;
+padding-top: 2%;
+padding-bottom: 2%;
+/*margin-top: -10%;*/
+max-width: 50%;
+/*background-color: blue;*/
+}
+
+#vis4, #vis5{
+
+    /*border: dashed green;*/
+width: 100%;
+/*height: 700px;*/
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: darkgray;
+    stroke-width: .7;
+    shape-rendering: crispEdges;
+}
+
+.subHeader {
+
+font-family: "Nunito Sans", sans-serif;
+font-style: italic;
+font-size: 1.4rem;
+font-weight: 200;
+padding-left: 5%;
+padding-right: 5%;
+/*margin-top: 1%;*/
+
+
+
+}
+
+
+.credits {
+
+font-family: "Nunito Sans", sans-serif;
+font-size: 1rem;
+text-decoration: italic;
+
+}
+
+ #test1,.test1{
+
+font-family: "Nunito Sans", sans-serif;
+font-size: 4rem;
+text-align: center;
+/*background-color: pink;
+*/font-weight: 900;
+border: red dashed;
+
+}
+
+
+.lineStyle {
+
+/*stroke: darkgray;                           */
+stroke-width: 1;
+fill: none;
+transition: ease-in .2s;
+
+}
+
+
+.lineStyleSm {
+
+/*stroke: darkgray;                           */
+stroke-width: 3;
+fill: none;
+transition: ease-in .2s;
+
+}
+
+/*#vis2
+{background-color: pink;}*/
+
+.lineStyle1 {
+
+stroke: black;                           
+stroke-width: 3;
+fill:none;
+/*stroke-dasharray: 1,1;*/
+opacity: .4;
+stroke-linecap: "round";
+
+}
+
+.lineStyle1:hover {
+
+stroke-width: 7;
+}
+
+
+
+
+
+.linePoint {
+
+
+font-family: "Nunito Sans", sans-serif;
+font-size: .7rem;
+font-weight: 300;
+
+
+
+}
+
+
+#time{
+
+
+    position: absolute;
+    left: 40%;
+    top: 60%;
+
+    /*margin:auto;*/
+    width: 400px;
+    font-family: "Nunito Sans", sans-serif;
+font-size: 3rem;
+background-color: white;
+opacity: .8;
+}
+
+
+.time2{
+
+
+        position: absolute;
+    left: 100px;
+    top: 150px;
+
+    /*margin:auto;*/
+    width: 500px;
+    font-family: "Nunito Sans", sans-serif;
+font-size: 2rem;
+}
+
+#replay{
+
+background-color: black;
+color: whitesmoke;
+padding:.5%;
+    position: absolute;
+    left: 47%;
+    top: 70%;
+/*    left:50%;
+    top: 70%;*/
+    border: solid lightgray 1px;
+    border-radius: 7px;
+    font-style: italic;
+      font-family: "Nunito Sans", sans-serif;
+font-size: 1rem;
+opacity: 0;
+
+animation: butt;
+    animation-duration: 1s;
+    animation-delay: 8s;
+animation-fill-mode: forwards;
+transition: ease .2s;
+
+}
+
+#replay:hover {
+
+    padding:.9%;
+font-size: 1.1rem;
+    border: solid darkgray 1.1px;
+f
+
+}
+
+
+
+
+#replay2{
+z-index: 99;
+
+background-color: black;
+color: whitesmoke;
+padding:.5%;
+    position: relative;
+ left: 47%;
+    top: 70%;
+    display: inline;
+/*    left:50%;
+    top: 70%;*/
+    border: solid lightgray 1px;
+    border-radius: 7px;
+    font-style: italic;
+      font-family: "Nunito Sans", sans-serif;
+font-size: 1rem;
+opacity: 0;
+
+animation: butt;
+    animation-duration: 1s;
+    animation-delay: 18s;
+animation-fill-mode: forwards;
+transition: ease .2s;
+
+}
+
+#replay2:hover {
+
+    padding:.9%;
+font-size: 1.1rem;
+    border: solid darkgray 1.1px;
+f
+
+}
+@keyframes butt {
+
+from{opacity: 0;}
+
+to {opacity: 1;}
+
+}
+
+
+
+
+.smContainer{
+
+/*border: blue dashed;*/
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: stretch;
+margin-top: 2%;
+
+    }
+
+
+/*
+#vis2Small{
+
+border: red dashed;
+min-width: 300px;
+
+    }*/
+
+
+.footer {
+
+width: 80%;
+margin-top: 6%;
+margin-bottom: 1%;
+
+}
+
+
+img{
+
+width: 100%;
+height: auto;
+/*margin: auto;*/
+
+}
+
+
+  .tooltip {
+            position: absolute;
+            font-size: 18px;
+            width:  auto;
+            padding: .7%;
+            text-align: left;
+            pointer-events: none;
+            min-height: 45px;
+            min-width: 145px;
+            border: dashed .5px lightgray;
+            background-color: green;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+
+#visTool {
+
+height: 40px;
+width: 22%;
+margin:auto;
+border: dashed lightgray 1px;
+padding: 1%;
+ position: absolute;
+
+/* left: 50%;
+top: 50%;*/
+z-index: 99;
+/*margin-top: -18%;*/
+/*margin-bottom: 40%;*/
+font-family: "Nunito Sans", sans-serif;
+font-size: 1em;
+font-weight: 600;
+padding-bottom: 2%;
+background-color: white;
+opacity: .7;
+
+
+
+}
+
+.mediumImg {
+
+width: 70%;
+height: auto;
+margin:auto;
+display: block;
+margin-top: 1%;
+margin-bottom: 1%;
+
+
+}
+

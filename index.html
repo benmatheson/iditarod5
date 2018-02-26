@@ -1,0 +1,145 @@
+<!doctype html>
+<html  lang="">
+    <head>
+                <script src="js/vendor/scrollmagic.js"></script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,800,900" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css?<?php echo date('l jS \of F Y h:i:s A'); ?>">
+
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+
+        <style>
+            
+/*.lineStyle {
+
+stroke: darkgray;                           
+stroke-width: 1;
+fill: none;
+transition: ease-in .2s;
+
+}*/
+
+.lineStyle:hover {
+stroke: black;                           
+
+stroke-width: 4;
+}
+
+
+
+.linePointDot {
+
+stroke: black;                           
+stroke-width: 3;
+fill: black;
+z-index: -99;
+
+}
+
+/*
+*/
+
+
+
+
+/*background-color:red;
+*/
+
+
+        </style>
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->    
+
+
+
+
+        <h1 id="header">A Debt That Must Be Paid:<br /> 54 Ways to Run to Nome</h1>
+        <h2 class="subHeader">Visualizing the Run-Rest Schedules that Power Iditarod Sled Dog Teams Across Alaska. (2013 Finishers) </h2>
+
+      <div class="center"></div>
+
+<div id="vis5Trigger"></div>
+
+<div id="vis5">
+      <div id="replay2" onclick="executeVis5()"> REPLAY RACE </div>
+
+    
+</div>
+
+
+</div>
+<div class="mid card"><p>Running and resting are the yin and yang of mushing: the more energy a dog burns running, the more rest they need. The minutes a musher gains on his or her competitors by running faster amount to debt that that must be paid in quality recovery rest. But the calculus is changing: run-rest ratio of 1:1 or a positive ratio was common years ago. A musher runs the dogs four hours and beds them down for another four hours. By carefully gauging their speed, mushers can now run longer with less rest. <br /><br />There is no perfect formula for a team, much less individual dogs (although some mushers are trying to find it by strategically rest dogs in their sleds). Some will bank extra hours of rest along the early and middle part of the trail in order to maintain their speed for the final 300 miles. Others have run training schedules that require less rest. Some just play it by ear and respond to their teams as the unpredictable race unfolds.<br /><br />
+
+(Note: This only captures rest recorded in checkpoints, mushers sometimes rest elsewhere along the trail in order to achieve their specific mileage or timing considerations although the frequent village checkpoints make the checkpoint-to-checkpoint style a natural way to look at race strategies.)</p>
+</div>
+<!-- </div>
+ -->
+
+ <div style="text-align: center" class="mid card footer">
+    <p style="font-weight: 800">➠   ➠  About  ➠    ➠</p>
+    <p>Data from <a href="http://iditarod.com/" target="_blank">Iditarod.com</a>
+    <br /><br />A project by <a href="https://benmatheson.github.io" target="_blank">Ben Matheson.</a>
+ <br /><br />
+    <a href="https://d3js.org/" target="_blank">D3</a> powers all data visualizations. 
+Scroll effects utilize the <a href="http://scrollmagic.io/" target="_blank">ScrollMagic library.</a>
+<br /><br />
+
+Satellite imagery from MODIS satellite <a href="http://feeder.gina.alaska.edu/" target="_blank">via UAF GINA</a> 
+
+Elevation data from  <a href="https://agdc.usgs.gov/data/usgs/erosafo/300m/300m.html" target="_blank">USGS</a> 
+
+Data processing was done in R, heavily utilizing the tidyverse family of libraries.
+     </p>
+
+ </div>
+
+
+
+
+
+        <!-- <script src="js/vendor/modernizr-3.5.0.min.js"></script> -->
+        <script src="js/vendor/d3/d3.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!--         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+ -->        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <!-- <script src="http://d3.geotheory.co.uk/d3-transform.js"></script> -->
+        <script src="js/vendor/moment.js"></script>
+        <script src="js/vendor/moment-precise-range.js"></script>
+        <script src="js/vendor/scrollmagic.js"></script>
+        <script src="js/vendor/jquery.min.js"></script>
+
+ <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script> -->
+
+
+
+    </body>
+</html>
